@@ -24,7 +24,7 @@ public class CRMSteps {
         driver.manage().window().maximize();
         LoginPage loginPage = new LoginPage(driver);
         driver.get("https://crm-testlab.coderslab.pl/");
-        loginPage.loginAs("mlysinski@wp.pl", "Likwidator25");
+        loginPage.loginAs("*******.pl", "**********5");
     }
 
     @When("the user navigates to the {string} module through the path: ALL -> Workflows")
