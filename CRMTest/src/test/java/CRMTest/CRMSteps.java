@@ -23,7 +23,7 @@ public class CRMSteps {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         LoginPage loginPage = new LoginPage(driver);
-        driver.get("https://crm-testlab.coderslab.pl/");
+        driver.get("https://crm-t******.******.pl/");
         loginPage.loginAs("*******.pl", "**********5");
     }
 
